@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title> Weather Comparison</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/blog-home.css" rel="stylesheet">
+
+</head>
+
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="comparison.html">Comparison</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <div class="row">
+
+      <!-- Blog Entries Column -->
+      <!-- <div class="titles col-md-6"></div> -->
+
+        <!-- <h1 style = "color:blue; font-size: 40px;" >Weather Data Plots</h1> -->
+        
+
+        <div class = "col-md-6">
+
+          <h1 style = "color:blue; font-size: 40px;" >Weather Data Plots</h1>
+          <h2 style = "color:black; font-size: 30px;" >Summary</h2>
+
+          <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accompolish this analysis, we first pulled data from open weather map API to assemble a Data Set of over 500 cities.
+
+            After assembling the Data Set, we used matplotlib to plot various aspects of weather vs latitude. 
+            Factors we looked at include: temperature, cloudiness, humidity, and wind speed. 
+            This site includes the source data and visualizations created for the analysis, as well as their explanations and descriptions
+          </p>
+        
+
+        </div>
+        
+        <div class="col-md-6">
+          <h5 class="card-header">Visualizations</h5>
+          <!-- <div class="card-body"> -->
+          <div class = "container">
+            <div class = "row">
+              <div class = "col-md-6">
+                <a href="Lat_vs_Temp.html">
+                  <img class = "img-fluid" src = "images\Fig1.png" width="300" height="300">City Latitude vs Max Temperature</img>
+                </a>
+              </div>
+              
+              <div class = "col-md-6">
+                <a href="Lat_vs_Humid.html">
+                  <img class = "img-fluid" src = "images\Fig2.png"  width="300" height="300">City Latitude vs Humidity</img>
+                </a>
+              </div>
+            </div>
+
+            <div class = "row">
+              <div class = "col-md-6">
+                <a href="Lat_vs_Clouds.html">
+                  <img class = "img-fluid" src = "images\Fig3.png"  width="300" height="300">City Latitude vs Cloudiness</img>
+                </a>
+              </div>
+
+              <div class = "col-md-6">
+                <a href="Lat_vs_Wind.html">
+                  <img class = "img-fluid" src = "images\Fig4.png"  width="300" height="300">City Latitude vs Wind Speed</img>
+                </a>
+              </div>
+            </div>
+
+          </div>            
+          <!-- </div> -->
+        </div>
+      <!-- </div> -->
+    </div>
+  </div>
+
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
